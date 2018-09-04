@@ -1,14 +1,17 @@
-var hous = new Object();
-width = document.getElementById("width").value;
-length = document.getElementById("length").value;
-high = document.getElementById("high").value;
-doorsNumber = document.getElementById("doorsNumber").value;
-doorsHigh = document.getElementById("doorsHigh").value;
-doorsWidth = document.getElementById("doorsWidth").value;
-windowsNumber = document.getElementById("windowsNumber").value;
-windowsHigh = document.getElementById("windowsHigh").value;
-windowsWidth = document.getElementById("windowsWidth").value;
-wallThickness = document.getElementById("list").value;
-cost = document.getElementById("cost").value;
-var area = ((width + length) * 2 * high) - (doorsNumber * doorsHigh * doorsWidth) - (windowsNumber * windowsHigh * windowsWidth);
-alert(area);
+function perimetr() {
+    const width = document.getElementById("width").value;
+    const length = document.getElementById("length").value;
+    const high = document.getElementById("high").value;
+    var doorsNumber = document.getElementById("doorsNumber").value;
+    var doorsHigh = document.getElementById("doorsHigh").value;
+    var doorsWidth = document.getElementById("doorsWidth").value;
+    var windowsNumber = document.getElementById("windowsNumber").value;
+    var windowsHigh = document.getElementById("windowsHigh").value;
+    var windowsWidth = document.getElementById("windowsWidth").value;
+    var wallThickness = document.getElementById("list").value;
+    var cost = document.getElementById("cost").value;
+//var area = ((width + length) * 2 * high) - (doorsNumber * doorsHigh * doorsWidth) - (windowsNumber * windowsHigh * windowsWidth);
+//alert(area);
+    const area = width * length;
+    alert(area);
+}

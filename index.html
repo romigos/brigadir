@@ -17,43 +17,32 @@
     <div class="wrapper">
         <div class="main_about">
             <div class="about_left">
-                <p><label for="name"  id="result"></label></p>
-                <p><label for="name">Ширина комнаты (м): </label></p>
-                <p><input type="number" id="width" placeholder="4" required=""/></p>
-                <p ><label for="name">Длина комнаты (м):</label></p>
-                <p><input type="number" id="length" placeholder="5" required=""/></p>
-                <p ><label for="name">Высота стен (м):</label></p>
-                <p><input type="number" id="high" placeholder="2,5" required=""/></p>
-                <p><label for="name">Количество дверей:</label></p>
-                <p><input type="number" id="doorsNumber" placeholder="1" required=""/></p>
-                <p><label for="name">Высота дверей (м):</label></p>
-                <p><input type="number" id="doorsHigh" placeholder="2" required=""/></p>
-                <p><label for="name">Ширина дверей (м):</label></p>
-                <p><input type="number" id="doorsWidth" placeholder="0.8" required=""/></p>
-                <p><label for="name">Количество окон:</label></p>
-                <p><input type="number" id="windowsNumber" placeholder="2" required=""/></p>
-                <p><label for="name">Высота окон (м):</label></p>
-                <p><input type="number" id="windowsHigh" placeholder="1.3" required=""/></p>
-                <p><label for="name">Ширина окон (м):</label></p>
-                <p><input type="number" id="windowsWidth" placeholder="1.2" required=""/></p>
+                <label form="name">Ширина комнаты (м): </label>
+                <input type="number" id="width" placeholder="4" required=""/><br>
+                <label form="name">Длина комнаты (м):</label>
+                <input type="number" id="length" placeholder="5" required=""/><br>
+                <label form="name">Высота стен (м):</label>
+                <input type="number" id="high" placeholder="2,5" required=""/><br>
+                <label form="name">Количество дверей:</label>
+                <input type="number" id="doorsNumber" placeholder="1" required=""/><br>
+                <label form="name">Высота дверей (м):</label>
+                <input type="number" id="doorsHigh" placeholder="2" required=""/><br>
+                <label form="name">Ширина дверей (м):</label>
+                <input type="number" id="doorsWidth" placeholder="0.8" required=""/><br>
+                <label form="name">Количество окон:</label>
+                <input type="number" id="windowsNumber" placeholder="2" required=""/><br>
+                <label form="name">Высота окон (м):</label>
+                <input type="number" id="windowsHigh" placeholder="1.3" required=""/><br>
+                <label form="name">Ширина окон (м):</label>
+                <input type="number" id="windowsWidth" placeholder="1.2" required=""/><br>
+
             </div>
             <div class="about_right">
-                <p>Формула для розрахунку периметра наступна:<strong> P = a + b + c.</strong>  </p>
-                <p>Введіть значення сторін трикутника:</p>
-                <div class="forma">
-                    <form name="forma1">
-                        <input type="text" name="t1"> сторона A<br><hr>
-                        <input type="text" name="t2"> сторона B<br><hr>
-                        <input type="text" name="t3"> сторона C<br><hr>
-                        <input type="button" name="button" value=" P (Розрахунок) =" onclick="perimeterTriangle()">
-                        <input type="text" name="res" size="3"><br>
-                        <input type="button" value=" S (Розрахунок) =" onclick="areaTriangle();">
-                        <input type="number" id="res" name="res" size="3"><br>
-                    </form>
+                <p>Розрахунок площі підлоги для покриття його оздовлювальними матеріалами:</p>
+                <input type="button" name="button" value=" Площа =" onclick="perimetr()">
                 </div>
             </div>
-        </div>
-    </div>
+         </div>
 
 </main>
 </body>
