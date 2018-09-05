@@ -21,3 +21,9 @@ main .main_about{
 .forma{
     font-size: large;
 }
+.area{
+    text-align: center;
+    border: red;
+    width: 321px;
+    height: 34px;
+}
